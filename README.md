@@ -3,7 +3,6 @@
 ### 设备上报参数设置接口
 
 **request**
-
 ```
 POST /store/v1/putDevParams
 
@@ -36,4 +35,5 @@ POST /store/v1/putDevParams
 |params[].description|字符串|参数描述|否|
 
 **response**
+
 统一接口返回码
