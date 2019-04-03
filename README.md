@@ -14,7 +14,7 @@ POST /store/v1/putDevParams
 		"id": 10,
 		"name": "voltage",
 		"type": "float",
-		"description": "电压值",
+		"description": "电压值"
 	}, {
 		...
 	}]
