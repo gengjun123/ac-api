@@ -1,10 +1,11 @@
 # ac-api
 
-### 设备上报参数设置接口
+### 新增/修改设备类型
+修改设备类型时，参数列表也是传递所有的参数。
 
 **request**
 ```
-POST /store/v1/putDevParams
+POST /store/v1/putDevType
 
 {
 	"name": "POWER_TRANS_TAB",
