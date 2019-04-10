@@ -10,6 +10,8 @@ POST /store/v1/putDevType
 {
 	"name": "POWER_TRANS_TAB",
 	"type": 7,
+	"version": "1.0",
+	"action": "update",
 	"description": "变压器",
 	"params": [{
 		"name": "voltage",
@@ -27,6 +29,8 @@ POST /store/v1/putDevType
 | -- | -- | -- | -- |
 |name|字符串|设备类型名称|是|
 |type|整形|设备类型枚举值|是|
+|version|字符串|版本号|是|
+|action|字符串|该设备类型对应的设备数据操作|否
 |description|字符串|描述|是|
 |params|数组|参数列表|是|
 |params[].name|字符串|参数名称|是|
@@ -35,4 +39,13 @@ POST /store/v1/putDevType
 
 **response**
 
-统一接口返回码
+200 成功
+
+400/500 失败
+```
+{
+	"Code": 100,
+	"Desc": "internal error",
+	"Cause": "service not available"
+}
+```
