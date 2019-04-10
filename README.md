@@ -5,7 +5,7 @@
 
 **request**
 ```
-POST /store/v1/putDevType
+POST /ac-module/v1/putDevType
 
 {
 	"name": "POWER_TRANS_TAB",
